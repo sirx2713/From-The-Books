@@ -1,0 +1,45 @@
+/* This is a guide
+
+ */
+
+body {
+    background-color: black;
+    }
+/* Design starts here
+ */
+#cover-page{
+    display: block;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+#logo >img{
+    margin-top: 50px;
+    width: 1200px;
+    height: 264px;
+}
+#main-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#main-image > img{
+    width: 1425px;
+    height: 2385px;
+    position: absolute;
+}
+#main-image > h1{
+    position: absolute;
+    left: 50px;
+    top: 1920px;
+    color: white;
+    font-family: "SF Pro Display", serif;
+    font-size: 100px;
+}
+.table-div{
+    display: inline-block;
+}
